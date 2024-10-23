@@ -1,7 +1,8 @@
 #!/bin/bash
 #Original developer: julianfairfax
 #Original repository: https://gitlab.com/julianfairfax/scripts
-#This Script help you to add a location to Gnome Weather
+#Description: This Script help you to add a location to Gnome Weather
+#Dependency: Need to install "bc" alongside!
 
 if [[ ! -z "$(which gnome-weather)" ]]; then
 	system=1
